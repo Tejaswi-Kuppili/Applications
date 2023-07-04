@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Tejaswi Kuppili\\source\\repos\\C# ASSIGNMENTS\\InternalApp\\BusinessModels\\BusinessModels.csproj": {}
+    "C:\\Users\\Tejaswi Kuppili\\source\\repos\\Applications\\InternalApp\\BusinessModels\\BusinessModels.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Tejaswi Kuppili\\source\\repos\\C# ASSIGNMENTS\\InternalApp\\BusinessModels\\BusinessModels.csproj": {
+    "C:\\Users\\Tejaswi Kuppili\\source\\repos\\Applications\\InternalApp\\BusinessModels\\BusinessModels.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Tejaswi Kuppili\\source\\repos\\C# ASSIGNMENTS\\InternalApp\\BusinessModels\\BusinessModels.csproj",
+        "projectUniqueName": "C:\\Users\\Tejaswi Kuppili\\source\\repos\\Applications\\InternalApp\\BusinessModels\\BusinessModels.csproj",
         "projectName": "BusinessModels",
-        "projectPath": "C:\\Users\\Tejaswi Kuppili\\source\\repos\\C# ASSIGNMENTS\\InternalApp\\BusinessModels\\BusinessModels.csproj",
+        "projectPath": "C:\\Users\\Tejaswi Kuppili\\source\\repos\\Applications\\InternalApp\\BusinessModels\\BusinessModels.csproj",
         "packagesPath": "C:\\Users\\Tejaswi Kuppili\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Tejaswi Kuppili\\source\\repos\\C# ASSIGNMENTS\\InternalApp\\BusinessModels\\obj\\",
+        "outputPath": "C:\\Users\\Tejaswi Kuppili\\source\\repos\\Applications\\InternalApp\\BusinessModels\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
