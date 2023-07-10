@@ -22,3 +22,15 @@ C:\Users\Tejaswi Kuppili\source\repos\InternalApp\BusinessModels\obj\Debug\net7.
 C:\Users\Tejaswi Kuppili\source\repos\InternalApp\BusinessModels\obj\Debug\net7.0\refint\BusinessModels.dll
 C:\Users\Tejaswi Kuppili\source\repos\InternalApp\BusinessModels\obj\Debug\net7.0\BusinessModels.pdb
 C:\Users\Tejaswi Kuppili\source\repos\InternalApp\BusinessModels\obj\Debug\net7.0\ref\BusinessModels.dll
+C:\Users\Tejaswi Kuppili\source\repos\Applications\UpdatedInternalApp\BusinessModels\bin\Debug\net7.0\BusinessModels.deps.json
+C:\Users\Tejaswi Kuppili\source\repos\Applications\UpdatedInternalApp\BusinessModels\bin\Debug\net7.0\BusinessModels.dll
+C:\Users\Tejaswi Kuppili\source\repos\Applications\UpdatedInternalApp\BusinessModels\bin\Debug\net7.0\BusinessModels.pdb
+C:\Users\Tejaswi Kuppili\source\repos\Applications\UpdatedInternalApp\BusinessModels\obj\Debug\net7.0\BusinessModels.csproj.AssemblyReference.cache
+C:\Users\Tejaswi Kuppili\source\repos\Applications\UpdatedInternalApp\BusinessModels\obj\Debug\net7.0\BusinessModels.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Tejaswi Kuppili\source\repos\Applications\UpdatedInternalApp\BusinessModels\obj\Debug\net7.0\BusinessModels.AssemblyInfoInputs.cache
+C:\Users\Tejaswi Kuppili\source\repos\Applications\UpdatedInternalApp\BusinessModels\obj\Debug\net7.0\BusinessModels.AssemblyInfo.cs
+C:\Users\Tejaswi Kuppili\source\repos\Applications\UpdatedInternalApp\BusinessModels\obj\Debug\net7.0\BusinessModels.csproj.CoreCompileInputs.cache
+C:\Users\Tejaswi Kuppili\source\repos\Applications\UpdatedInternalApp\BusinessModels\obj\Debug\net7.0\BusinessModels.dll
+C:\Users\Tejaswi Kuppili\source\repos\Applications\UpdatedInternalApp\BusinessModels\obj\Debug\net7.0\refint\BusinessModels.dll
+C:\Users\Tejaswi Kuppili\source\repos\Applications\UpdatedInternalApp\BusinessModels\obj\Debug\net7.0\BusinessModels.pdb
+C:\Users\Tejaswi Kuppili\source\repos\Applications\UpdatedInternalApp\BusinessModels\obj\Debug\net7.0\ref\BusinessModels.dll

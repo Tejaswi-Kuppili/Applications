@@ -16,16 +16,8 @@ namespace DataLayer
         /// <param name="user"></param>
         public void AddData(BusinessModels.User user)
         {
-            DataModels.User dataUser = ConvertBusinessModelToDataModel(user);
-            //DataModels.User dataUser = ConvertBusinessModelToDataModel<BusinessModels.User, DataModels.User>(user);
-            /*if (user.GetType().Namespace == "BusinessModels")
-            {
-                DataModels.User dataUser = ConvertBusinessModelToDataModel(user);
-            }
-            else
-            {
-                DataModels.User dataUser = ConvertDataModelToBusinessModel(user);
-            }*/
+            DataSource.users.Add(ConvertModel<BusinessModels.User, DataModels.User>(user));
+            //DataSource.users.Add(ConvertBusinessModelToDataModel(user));
         }
 
         public void GetObj()
@@ -67,6 +59,18 @@ namespace DataLayer
             }
             return false;
         }
+
+
+
+
+
+
+
+
+
+
+
+
         /// <summary>
         /// Generic Method to convert Business Model to Data Model and vice-versa
         /// </summary>
@@ -74,7 +78,7 @@ namespace DataLayer
         /// <typeparam name="TTargetModel"></typeparam>
         /// <param name="businessModel"></param>
         /// <returns></returns>
-        public dynamic ConvertModel<TSourceModel, TTargetModel>(dynamic businessModel)
+        public dynamic ConvertModel<TSourceModel, TTargetModel>(dynamic Model)
             where TSourceModel : new()
             where TTargetModel : new()
         {
@@ -85,8 +89,9 @@ namespace DataLayer
                 // .ForMember(dest => dest.Username, opt => opt.MapFrom(src => src.Username));
             });
             // Creating IMapper instance
-            IMapper mapper = configuration.CreateMapper();
-            TTargetModel targetModel = mapper.Map<TTargetModel>(model);
+            var mapper = new Mapper(configuration);
+            //IMapper mapper = configuration.CreateMapper();
+            TTargetModel targetModel = mapper.Map<TTargetModel>(Model);
             return targetModel;
         }
 
@@ -106,6 +111,23 @@ namespace DataLayer
             }
         }
         return targetModel;*/
+
+        public BusinessModels.User GetDetails(string UserName, string Password)
+        {
+            DataModels.User dataUser = new DataModels.User();
+            dataUser.UserName = UserName;
+            dataUser.Password = Password;
+            DataModels.User user1 = DataSource.users.Find(u => u.UserName.Equals(UserName) && u.Password.Equals(Password));
+
+            if(user1 != null)
+            {
+                return ConvertModel<DataModels.User, BusinessModels.User>(user1);
+            }
+            return null;
+        }
+
+
+
 
 
 
@@ -138,15 +160,19 @@ namespace DataLayer
                 var config = new MapperConfiguration(cfg =>
                 {
                     cfg.CreateMap<BusinessModels.User, DataModels.User>()
-                        .ForAllMembers(opts => opts.MapFrom((src, dest, srcMember, context) =>
+                        .ForAllMembers(opts =>
                         {
-                            var destinationMember = context.Mapper.ConfigurationProvider.FindTypeMapFor<BusinessModels.User, DataModels.User>()
-                                .GetPropertyMap(opts.DestinationMember.Name)?.DestinationMember;
-                            return destinationMember != null ? context.Mapper.Map(srcMember, dest, srcMember.GetType(), destinationMember.PropertyType) : srcMember;
-                        }));
+                            opts.MapFrom((src, dest, srcMember, context) =>
+                            {
+                                var destinationMember = context.Mapper.ConfigurationProvider.FindTypeMapFor<BusinessModels.User, DataModels.User>()
+                                    .GetPropertyMap(opts.DestinationMember.Name)?.DestinationMember;
+                                return destinationMember != null ? context.Mapper.Map(srcMember, dest, srcMember.GetType(), destinationMember.PropertyType) : srcMember;
+                            });
+                        });
                 });
                 IMapper mapper = config.CreateMapper();
-                DataModels.User dataModel = mapper.Map<DataModels.User>(businessModel); 
+                DataModels.User dataModel = mapper.Map<BusinessModels.User, DataModels.User>(businessModel);
+                return dataModel;
             }
             return null;
         }*/

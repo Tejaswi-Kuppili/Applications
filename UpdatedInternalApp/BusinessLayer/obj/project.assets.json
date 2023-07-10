@@ -68,11 +68,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Tejaswi Kuppili\\source\\repos\\InternalApp\\BusinessLayer\\BusinessLayer.csproj",
+      "projectUniqueName": "C:\\Users\\Tejaswi Kuppili\\source\\repos\\Applications\\UpdatedInternalApp\\BusinessLayer\\BusinessLayer.csproj",
       "projectName": "BusinessLayer",
-      "projectPath": "C:\\Users\\Tejaswi Kuppili\\source\\repos\\InternalApp\\BusinessLayer\\BusinessLayer.csproj",
+      "projectPath": "C:\\Users\\Tejaswi Kuppili\\source\\repos\\Applications\\UpdatedInternalApp\\BusinessLayer\\BusinessLayer.csproj",
       "packagesPath": "C:\\Users\\Tejaswi Kuppili\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Tejaswi Kuppili\\source\\repos\\InternalApp\\BusinessLayer\\obj\\",
+      "outputPath": "C:\\Users\\Tejaswi Kuppili\\source\\repos\\Applications\\UpdatedInternalApp\\BusinessLayer\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -93,11 +93,11 @@
         "net7.0": {
           "targetAlias": "net7.0",
           "projectReferences": {
-            "C:\\Users\\Tejaswi Kuppili\\source\\repos\\InternalApp\\BusinessModels\\BusinessModels.csproj": {
-              "projectPath": "C:\\Users\\Tejaswi Kuppili\\source\\repos\\InternalApp\\BusinessModels\\BusinessModels.csproj"
+            "C:\\Users\\Tejaswi Kuppili\\source\\repos\\Applications\\UpdatedInternalApp\\BusinessModels\\BusinessModels.csproj": {
+              "projectPath": "C:\\Users\\Tejaswi Kuppili\\source\\repos\\Applications\\UpdatedInternalApp\\BusinessModels\\BusinessModels.csproj"
             },
-            "C:\\Users\\Tejaswi Kuppili\\source\\repos\\InternalApp\\DataLayer\\DataLayer.csproj": {
-              "projectPath": "C:\\Users\\Tejaswi Kuppili\\source\\repos\\InternalApp\\DataLayer\\DataLayer.csproj",
+            "C:\\Users\\Tejaswi Kuppili\\source\\repos\\Applications\\UpdatedInternalApp\\DataLayer\\DataLayer.csproj": {
+              "projectPath": "C:\\Users\\Tejaswi Kuppili\\source\\repos\\Applications\\UpdatedInternalApp\\DataLayer\\DataLayer.csproj",
               "privateAssets": "all"
             }
           }

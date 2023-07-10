@@ -8,7 +8,8 @@ namespace ConsoleApp
         {
             Register = 1,
             Login = 2,
-            Exit = 3
+            GetUserDetails = 3,
+            Exit = 4
         };
         public static void Main(string[] args)
         {
@@ -27,6 +28,9 @@ namespace ConsoleApp
                         break;
                     case MenuChoice.Login:
                         authenticate.Login();
+                        break;
+                    case MenuChoice.GetUserDetails:
+                        authenticate.GetUser();
                         break;
                     case MenuChoice.Exit:
                         authenticate.Exit();

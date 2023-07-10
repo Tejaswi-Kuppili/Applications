@@ -8,33 +8,35 @@ namespace ConsoleApp
         public bool Register()
         {
             BALAuthentication balAuth = new BALAuthentication();
-            User businessUser = new User();
+            User user = new User();
 
             Console.Write(Literals.enterUsername);
 
-            businessUser.UserName = Console.ReadLine();
+            user.UserName = Console.ReadLine();
 
-            if (balAuth.IsUserExist(businessUser))
+            if (balAuth.IsUserExist(user))
             {
                 Console.WriteLine(Literals.usernamealreadyexist);
                 return false;
             }
 
             Console.Write(Literals.enterPhoneNo);
-            businessUser.MobileNumber = Console.ReadLine();
+            user.MobileNumber = Console.ReadLine();
             Console.Write(Literals.enterEmailID);
-            businessUser.EmailID = Console.ReadLine();
+            user.EmailID = Console.ReadLine();
             Console.Write(Literals.enterPassword);
-            businessUser.Password = Console.ReadLine();
+            user.Password = Console.ReadLine();
             Console.Write(Literals.confirmPassword);
             string confirm_password = Console.ReadLine();
-            while (businessUser.Password != confirm_password)
+
+            while (user.Password != confirm_password)
             {
                 Console.WriteLine(Literals.passwordNotMatched);
                 string reEnterPassword = Console.ReadLine();
                 confirm_password = reEnterPassword;
             }
-            if (balAuth.CheckInputs(businessUser))
+
+            if (balAuth.CheckInputs(user))
             {
                 Console.WriteLine(Literals.invalidDetails);
                 Console.WriteLine(Literals.checkDetails);
@@ -44,7 +46,27 @@ namespace ConsoleApp
             else
             {
                 Console.WriteLine(Literals.regSuccessfulMsg);
-                balAuth.details(businessUser);
+                balAuth.details(user);
+            }
+            return false;
+        }
+        public bool GetUser()
+        {
+            BALAuthentication balAuth = new BALAuthentication();
+            User user = new User();
+            Console.Write(Literals.enterUsername);
+            string UserName = Console.ReadLine();
+            Console.Write(Literals.enterPassword);
+            string Password = Console.ReadLine();
+            user = balAuth.GetUserDetails(user, UserName, Password);
+
+            if(user != null)
+            {
+                Console.WriteLine("User Name: "+user.UserName+"\nEmail ID: "+user.EmailID+"\nMobile Number: "+user.MobileNumber);
+            }
+            else
+            {
+                Console.WriteLine(Literals.invalidUsernamePassword);
             }
             return false;
         }

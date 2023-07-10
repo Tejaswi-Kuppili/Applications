@@ -52,11 +52,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Tejaswi Kuppili\\source\\repos\\InternalApp\\ConsoleApp\\ConsoleApp.csproj",
+      "projectUniqueName": "C:\\Users\\Tejaswi Kuppili\\source\\repos\\Applications\\UpdatedInternalApp\\ConsoleApp\\ConsoleApp.csproj",
       "projectName": "ConsoleApp",
-      "projectPath": "C:\\Users\\Tejaswi Kuppili\\source\\repos\\InternalApp\\ConsoleApp\\ConsoleApp.csproj",
+      "projectPath": "C:\\Users\\Tejaswi Kuppili\\source\\repos\\Applications\\UpdatedInternalApp\\ConsoleApp\\ConsoleApp.csproj",
       "packagesPath": "C:\\Users\\Tejaswi Kuppili\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Tejaswi Kuppili\\source\\repos\\InternalApp\\ConsoleApp\\obj\\",
+      "outputPath": "C:\\Users\\Tejaswi Kuppili\\source\\repos\\Applications\\UpdatedInternalApp\\ConsoleApp\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -77,11 +77,11 @@
         "net7.0": {
           "targetAlias": "net7.0",
           "projectReferences": {
-            "C:\\Users\\Tejaswi Kuppili\\source\\repos\\InternalApp\\BusinessLayer\\BusinessLayer.csproj": {
-              "projectPath": "C:\\Users\\Tejaswi Kuppili\\source\\repos\\InternalApp\\BusinessLayer\\BusinessLayer.csproj"
+            "C:\\Users\\Tejaswi Kuppili\\source\\repos\\Applications\\UpdatedInternalApp\\BusinessLayer\\BusinessLayer.csproj": {
+              "projectPath": "C:\\Users\\Tejaswi Kuppili\\source\\repos\\Applications\\UpdatedInternalApp\\BusinessLayer\\BusinessLayer.csproj"
             },
-            "C:\\Users\\Tejaswi Kuppili\\source\\repos\\InternalApp\\BusinessModels\\BusinessModels.csproj": {
-              "projectPath": "C:\\Users\\Tejaswi Kuppili\\source\\repos\\InternalApp\\BusinessModels\\BusinessModels.csproj"
+            "C:\\Users\\Tejaswi Kuppili\\source\\repos\\Applications\\UpdatedInternalApp\\BusinessModels\\BusinessModels.csproj": {
+              "projectPath": "C:\\Users\\Tejaswi Kuppili\\source\\repos\\Applications\\UpdatedInternalApp\\BusinessModels\\BusinessModels.csproj"
             }
           }
         }

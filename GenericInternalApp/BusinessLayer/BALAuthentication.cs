@@ -52,5 +52,10 @@ namespace BusinessLayer
             IDALAuthentication IDALAuth = dataFactory.GetObj();
             IDALAuth.AddData(user);
         }
+        public User GetUserDetails(User user, string UserName, string Password)
+        {
+            IDALAuthentication IDALAuth = dataFactory.GetObj();
+            return IDALAuth.GetDetails(UserName, Password);
+        }
     }
 }

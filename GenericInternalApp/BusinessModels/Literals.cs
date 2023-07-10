@@ -6,7 +6,7 @@
     public static class Literals
     {
         //Program.cs String Literals
-        public static string options = "1. Register\n2. Login\n3. Exit";
+        public static string options = "1. Register\n2. Login\n3. Get User Details\n4. Exit";
         public static string enterChoice = "Enter your choice: ";
         public static string invalidMsg = "Invalid choice. Please try again.";
 

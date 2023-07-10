@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Tejaswi Kuppili\\source\\repos\\InternalApp\\DataLayer\\DataLayer.csproj": {}
+    "C:\\Users\\Tejaswi Kuppili\\source\\repos\\Applications\\UpdatedInternalApp\\DataLayer\\DataLayer.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Tejaswi Kuppili\\source\\repos\\InternalApp\\BusinessModels\\BusinessModels.csproj": {
+    "C:\\Users\\Tejaswi Kuppili\\source\\repos\\Applications\\UpdatedInternalApp\\BusinessModels\\BusinessModels.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Tejaswi Kuppili\\source\\repos\\InternalApp\\BusinessModels\\BusinessModels.csproj",
+        "projectUniqueName": "C:\\Users\\Tejaswi Kuppili\\source\\repos\\Applications\\UpdatedInternalApp\\BusinessModels\\BusinessModels.csproj",
         "projectName": "BusinessModels",
-        "projectPath": "C:\\Users\\Tejaswi Kuppili\\source\\repos\\InternalApp\\BusinessModels\\BusinessModels.csproj",
+        "projectPath": "C:\\Users\\Tejaswi Kuppili\\source\\repos\\Applications\\UpdatedInternalApp\\BusinessModels\\BusinessModels.csproj",
         "packagesPath": "C:\\Users\\Tejaswi Kuppili\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Tejaswi Kuppili\\source\\repos\\InternalApp\\BusinessModels\\obj\\",
+        "outputPath": "C:\\Users\\Tejaswi Kuppili\\source\\repos\\Applications\\UpdatedInternalApp\\BusinessModels\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -63,14 +63,14 @@
         }
       }
     },
-    "C:\\Users\\Tejaswi Kuppili\\source\\repos\\InternalApp\\DataLayer\\DataLayer.csproj": {
+    "C:\\Users\\Tejaswi Kuppili\\source\\repos\\Applications\\UpdatedInternalApp\\DataLayer\\DataLayer.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Tejaswi Kuppili\\source\\repos\\InternalApp\\DataLayer\\DataLayer.csproj",
+        "projectUniqueName": "C:\\Users\\Tejaswi Kuppili\\source\\repos\\Applications\\UpdatedInternalApp\\DataLayer\\DataLayer.csproj",
         "projectName": "DataLayer",
-        "projectPath": "C:\\Users\\Tejaswi Kuppili\\source\\repos\\InternalApp\\DataLayer\\DataLayer.csproj",
+        "projectPath": "C:\\Users\\Tejaswi Kuppili\\source\\repos\\Applications\\UpdatedInternalApp\\DataLayer\\DataLayer.csproj",
         "packagesPath": "C:\\Users\\Tejaswi Kuppili\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Tejaswi Kuppili\\source\\repos\\InternalApp\\DataLayer\\obj\\",
+        "outputPath": "C:\\Users\\Tejaswi Kuppili\\source\\repos\\Applications\\UpdatedInternalApp\\DataLayer\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -91,11 +91,11 @@
           "net7.0": {
             "targetAlias": "net7.0",
             "projectReferences": {
-              "C:\\Users\\Tejaswi Kuppili\\source\\repos\\InternalApp\\BusinessModels\\BusinessModels.csproj": {
-                "projectPath": "C:\\Users\\Tejaswi Kuppili\\source\\repos\\InternalApp\\BusinessModels\\BusinessModels.csproj"
+              "C:\\Users\\Tejaswi Kuppili\\source\\repos\\Applications\\UpdatedInternalApp\\BusinessModels\\BusinessModels.csproj": {
+                "projectPath": "C:\\Users\\Tejaswi Kuppili\\source\\repos\\Applications\\UpdatedInternalApp\\BusinessModels\\BusinessModels.csproj"
               },
-              "C:\\Users\\Tejaswi Kuppili\\source\\repos\\InternalApp\\DataModels\\DataModels.csproj": {
-                "projectPath": "C:\\Users\\Tejaswi Kuppili\\source\\repos\\InternalApp\\DataModels\\DataModels.csproj"
+              "C:\\Users\\Tejaswi Kuppili\\source\\repos\\Applications\\UpdatedInternalApp\\DataModels\\DataModels.csproj": {
+                "projectPath": "C:\\Users\\Tejaswi Kuppili\\source\\repos\\Applications\\UpdatedInternalApp\\DataModels\\DataModels.csproj"
               }
             }
           }
@@ -129,14 +129,14 @@
         }
       }
     },
-    "C:\\Users\\Tejaswi Kuppili\\source\\repos\\InternalApp\\DataModels\\DataModels.csproj": {
+    "C:\\Users\\Tejaswi Kuppili\\source\\repos\\Applications\\UpdatedInternalApp\\DataModels\\DataModels.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Tejaswi Kuppili\\source\\repos\\InternalApp\\DataModels\\DataModels.csproj",
+        "projectUniqueName": "C:\\Users\\Tejaswi Kuppili\\source\\repos\\Applications\\UpdatedInternalApp\\DataModels\\DataModels.csproj",
         "projectName": "DataModels",
-        "projectPath": "C:\\Users\\Tejaswi Kuppili\\source\\repos\\InternalApp\\DataModels\\DataModels.csproj",
+        "projectPath": "C:\\Users\\Tejaswi Kuppili\\source\\repos\\Applications\\UpdatedInternalApp\\DataModels\\DataModels.csproj",
         "packagesPath": "C:\\Users\\Tejaswi Kuppili\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Tejaswi Kuppili\\source\\repos\\InternalApp\\DataModels\\obj\\",
+        "outputPath": "C:\\Users\\Tejaswi Kuppili\\source\\repos\\Applications\\UpdatedInternalApp\\DataModels\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
