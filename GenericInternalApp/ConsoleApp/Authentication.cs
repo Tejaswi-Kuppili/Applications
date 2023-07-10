@@ -9,9 +9,7 @@ namespace ConsoleApp
         {
             BALAuthentication balAuth = new BALAuthentication();
             User user = new User();
-
             Console.Write(Literals.enterUsername);
-
             user.UserName = Console.ReadLine();
 
             if (balAuth.IsUserExist(user))
@@ -91,6 +89,7 @@ namespace ConsoleApp
 
             Console.WriteLine(Literals.afterLoginChoices);
             int ch = Convert.ToInt32(Console.ReadLine());
+
             if (ch == 1)
             {
                 Logout();

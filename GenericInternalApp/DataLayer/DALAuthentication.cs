@@ -1,4 +1,4 @@
-﻿using AutoMapper;
+using AutoMapper;
 using BusinessModels;
 using DataModels;
 using System.Reflection;
@@ -17,9 +17,11 @@ namespace DataLayer
         public void AddData(BusinessModels.User user)
         {
             DataSource.users.Add(ConvertModel<BusinessModels.User, DataModels.User>(user));
-            //DataSource.users.Add(ConvertBusinessModelToDataModel(user));
-        }
 
+            //DataSource.users.Add(ConvertBusinessModelToDataModel(user));
+            //DataModels.User dataUser = ConvertBusinessModelToDataModel(user);
+            //DataModels.User dataUser = ConvertBusinessModelToDataModel<BusinessModels.User, DataModels.User>(user);
+        }
         public void GetObj()
         {
             for (int i = 0; i < DataSource.users.Count; i++)
@@ -59,18 +61,6 @@ namespace DataLayer
             }
             return false;
         }
-
-
-
-
-
-
-
-
-
-
-
-
         /// <summary>
         /// Generic Method to convert Business Model to Data Model and vice-versa
         /// </summary>
@@ -89,12 +79,12 @@ namespace DataLayer
                 // .ForMember(dest => dest.Username, opt => opt.MapFrom(src => src.Username));
             });
             // Creating IMapper instance
+
             var mapper = new Mapper(configuration);
             //IMapper mapper = configuration.CreateMapper();
             TTargetModel targetModel = mapper.Map<TTargetModel>(Model);
             return targetModel;
         }
-
         /* TTargetModel targetModel = Activator.CreateInstance<TTargetModel>();
         TTargetModel targetModel = new TTargetModel();
         PropertyInfo[] sourceProperties = typeof(TSourceModel).GetProperties();
@@ -126,23 +116,6 @@ namespace DataLayer
             return null;
         }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
         /// <summary>
         /// Non-Generic Method
         /// </summary>
@@ -172,6 +145,7 @@ namespace DataLayer
                 });
                 IMapper mapper = config.CreateMapper();
                 DataModels.User dataModel = mapper.Map<BusinessModels.User, DataModels.User>(businessModel);
+                DataModels.User dataModel = mapper.Map<DataModels.User>(businessModel);
                 return dataModel;
             }
             return null;
