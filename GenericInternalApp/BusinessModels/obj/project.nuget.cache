@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "tyMFa03UTYW+7fl+5flEn5EadSCO7NpQKDmVfmYLf0ePFoDClKOSOz5feAiKsZsD1KaMqOzZNUen+nb/hoJ7AA==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\Tejaswi Kuppili\\source\\repos\\Applications\\GenericInternalApp\\BusinessModels\\BusinessModels.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Tejaswi Kuppili\\.nuget\\packages\\automapper\\12.0.1\\automapper.12.0.1.nupkg.sha512",
+    "C:\\Users\\Tejaswi Kuppili\\.nuget\\packages\\microsoft.csharp\\4.7.0\\microsoft.csharp.4.7.0.nupkg.sha512"
+  ],
+  "logs": []
+}
