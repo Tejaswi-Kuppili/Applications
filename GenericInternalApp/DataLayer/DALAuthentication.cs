@@ -1,4 +1,4 @@
-﻿using AutoMapper;
+using AutoMapper;
 using BusinessModels;
 using DataModels;
 using System.Reflection;
@@ -16,16 +16,9 @@ namespace DataLayer
         /// <param name="user"></param>
         public void AddData(BusinessModels.User user)
         {
-            DataModels.User dataUser = ConvertBusinessModelToDataModel(user);
+            DataSource.users.Add(ConvertModel<BusinessModels.User, DataModels.User>(user));
+            //DataModels.User dataUser = ConvertBusinessModelToDataModel(user);
             //DataModels.User dataUser = ConvertBusinessModelToDataModel<BusinessModels.User, DataModels.User>(user);
-            /*if (user.GetType().Namespace == "BusinessModels")
-            {
-                DataModels.User dataUser = ConvertBusinessModelToDataModel(user);
-            }
-            else
-            {
-                DataModels.User dataUser = ConvertDataModelToBusinessModel(user);
-            }*/
         }
 
         public void GetObj()
@@ -67,6 +60,18 @@ namespace DataLayer
             }
             return false;
         }
+
+
+
+
+
+
+
+
+
+
+
+
         /// <summary>
         /// Generic Method to convert Business Model to Data Model and vice-versa
         /// </summary>
@@ -74,7 +79,7 @@ namespace DataLayer
         /// <typeparam name="TTargetModel"></typeparam>
         /// <param name="businessModel"></param>
         /// <returns></returns>
-        public dynamic ConvertModel<TSourceModel, TTargetModel>(dynamic businessModel)
+        public dynamic ConvertModel<TSourceModel, TTargetModel>(dynamic Model)
             where TSourceModel : new()
             where TTargetModel : new()
         {
@@ -86,7 +91,7 @@ namespace DataLayer
             });
             // Creating IMapper instance
             IMapper mapper = configuration.CreateMapper();
-            TTargetModel targetModel = mapper.Map<TTargetModel>(model);
+            TTargetModel targetModel = mapper.Map<TTargetModel>(Model);
             return targetModel;
         }
 
@@ -121,6 +126,11 @@ namespace DataLayer
 
 
 
+
+
+
+
+
         /// <summary>
         /// Non-Generic Method
         /// </summary>
@@ -138,15 +148,19 @@ namespace DataLayer
                 var config = new MapperConfiguration(cfg =>
                 {
                     cfg.CreateMap<BusinessModels.User, DataModels.User>()
-                        .ForAllMembers(opts => opts.MapFrom((src, dest, srcMember, context) =>
+                        .ForAllMembers(opts =>
                         {
-                            var destinationMember = context.Mapper.ConfigurationProvider.FindTypeMapFor<BusinessModels.User, DataModels.User>()
-                                .GetPropertyMap(opts.DestinationMember.Name)?.DestinationMember;
-                            return destinationMember != null ? context.Mapper.Map(srcMember, dest, srcMember.GetType(), destinationMember.PropertyType) : srcMember;
-                        }));
+                            opts.MapFrom((src, dest, srcMember, context) =>
+                            {
+                                var destinationMember = context.Mapper.ConfigurationProvider.FindTypeMapFor<BusinessModels.User, DataModels.User>()
+                                    .GetPropertyMap(opts.DestinationMember.Name)?.DestinationMember;
+                                return destinationMember != null ? context.Mapper.Map(srcMember, dest, srcMember.GetType(), destinationMember.PropertyType) : srcMember;
+                            });
+                        });
                 });
                 IMapper mapper = config.CreateMapper();
-                DataModels.User dataModel = mapper.Map<DataModels.User>(businessModel); 
+                DataModels.User dataModel = mapper.Map<DataModels.User>(businessModel);
+                return dataModel;
             }
             return null;
         }*/
