@@ -1,0 +1,10 @@
+C:\Users\Tejaswi Kuppili\source\repos\Daily Tasks\ado.net\Demo\RegistrationLoginDataLayer\bin\Debug\RegistrationLoginDataLayer.dll
+C:\Users\Tejaswi Kuppili\source\repos\Daily Tasks\ado.net\Demo\RegistrationLoginDataLayer\bin\Debug\RegistrationLoginDataLayer.pdb
+C:\Users\Tejaswi Kuppili\source\repos\Daily Tasks\ado.net\Demo\RegistrationLoginDataLayer\bin\Debug\BusinessModels.dll
+C:\Users\Tejaswi Kuppili\source\repos\Daily Tasks\ado.net\Demo\RegistrationLoginDataLayer\bin\Debug\BusinessModels.pdb
+C:\Users\Tejaswi Kuppili\source\repos\Daily Tasks\ado.net\Demo\RegistrationLoginDataLayer\obj\Debug\RegistrationLoginDataLayer.csproj.AssemblyReference.cache
+C:\Users\Tejaswi Kuppili\source\repos\Daily Tasks\ado.net\Demo\RegistrationLoginDataLayer\obj\Debug\RegistrationLoginDataLayer.csproj.CoreCompileInputs.cache
+C:\Users\Tejaswi Kuppili\source\repos\Daily Tasks\ado.net\Demo\RegistrationLoginDataLayer\obj\Debug\RegistrationLoginDataLayer.csproj.CopyComplete
+C:\Users\Tejaswi Kuppili\source\repos\Daily Tasks\ado.net\Demo\RegistrationLoginDataLayer\obj\Debug\RegistrationLoginDataLayer.dll
+C:\Users\Tejaswi Kuppili\source\repos\Daily Tasks\ado.net\Demo\RegistrationLoginDataLayer\obj\Debug\RegistrationLoginDataLayer.pdb
+C:\Users\Tejaswi Kuppili\source\repos\Daily Tasks\ado.net\Demo\RegistrationLoginDataLayer\bin\Debug\RegistrationLoginDataLayer.dll.config

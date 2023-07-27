@@ -1,0 +1,6 @@
+C:\Users\Tejaswi Kuppili\source\repos\Daily Tasks\ado.net\Demo\BusinessModels\bin\Debug\BusinessModels.dll
+C:\Users\Tejaswi Kuppili\source\repos\Daily Tasks\ado.net\Demo\BusinessModels\bin\Debug\BusinessModels.pdb
+C:\Users\Tejaswi Kuppili\source\repos\Daily Tasks\ado.net\Demo\BusinessModels\obj\Debug\BusinessModels.csproj.AssemblyReference.cache
+C:\Users\Tejaswi Kuppili\source\repos\Daily Tasks\ado.net\Demo\BusinessModels\obj\Debug\BusinessModels.csproj.CoreCompileInputs.cache
+C:\Users\Tejaswi Kuppili\source\repos\Daily Tasks\ado.net\Demo\BusinessModels\obj\Debug\BusinessModels.dll
+C:\Users\Tejaswi Kuppili\source\repos\Daily Tasks\ado.net\Demo\BusinessModels\obj\Debug\BusinessModels.pdb

@@ -101,7 +101,6 @@ namespace DataLayer
             }
         }
         return targetModel;*/
-
         public BusinessModels.User GetDetails(string UserName, string Password)
         {
             DataModels.User dataUser = new DataModels.User();
@@ -115,7 +114,6 @@ namespace DataLayer
             }
             return null;
         }
-
         /// <summary>
         /// Non-Generic Method
         /// </summary>
@@ -165,6 +163,5 @@ namespace DataLayer
             }
             return null;
         }*/
-
     }
 }
